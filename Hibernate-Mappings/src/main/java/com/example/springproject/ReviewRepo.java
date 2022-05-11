@@ -10,4 +10,6 @@ public interface ReviewRepo extends JpaRepository<Review, Integer> {
 
 	List<Review> findByCourseId(int id);
 	
+	
+	
 }
